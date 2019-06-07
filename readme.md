@@ -1,5 +1,8 @@
 # CCPreviewDevice
+<p>
 Simple enum to be used when previewing SwiftUI view in a specific device.
+</p>
+
 Usually you have to do something like this:
 
 ```swift
@@ -16,7 +19,7 @@ struct LandmarkList_Previews : PreviewProvider {
 }
 #endif
 ```
-In otder specify devices, you need to use error prone string name. Instead of that you can do something like this:
+In order to specify devices, you need to use error prone string name. Instead of that you can do something like this:
 
 ```swift
 #if DEBUG
@@ -32,9 +35,10 @@ struct LandmarkList_Previews : PreviewProvider {
 }
 #endif
 ```
+
 ## Usage
 
-Just drag &drop CCPreviewDevice.swift into your project and you're ready to go.
+Just drag&drop CCPreviewDevice.swift into your project and you're ready to go.
 
 ## License
 [MIT License](http://opensource.org/licenses/mit-license.php).
